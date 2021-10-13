@@ -9,8 +9,8 @@ type LeftNavProps = React.HTMLAttributes<HTMLElement>;
 const LeftNav: React.FC<LeftNavProps> = (props) => {
   return (
     <div className="left-nav">
-      <div className="flex mb-12">
-        <img src={WalkerIcon} alt="" className="mr-4 items-center"/>
+      <div className="flex mb-8 lg:mb-12">
+        <img src={WalkerIcon} alt="" className="mr-2 lg:mr-4 items-center"/>
         <div className="">Walker</div>
       </div>
       <ol className="menu">

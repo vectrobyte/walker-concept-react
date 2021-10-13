@@ -14,13 +14,13 @@ type WalkerConceptProps = React.HTMLAttributes<HTMLElement>;
 const WalkerConcept: React.FC<WalkerConceptProps> = (props) => {
   return (
     <div className="parent w-full h-min-full flex">
-      <div className="left-area w-1/5 p-10 border-r">
+      <div className="left-area w-1/5 p-6 lg:p-10 border-r">
         <LeftNav />
       </div>
-      <div className="content-area p-10 w-3/5">
+      <div className="content-area p-6 lg:p-10 w-3/5">
         <TopNav />
-        <div className="flex -mx-4">
-          <div className="w-1/2 px-4">
+        <div className="flex flex-wrap lg:flex-nowrap -mx-4">
+          <div className="w-full lg:w-1/2 px-4">
             <div className="mb-8">
               <MtSnowDownCard />
             </div>
@@ -28,12 +28,12 @@ const WalkerConcept: React.FC<WalkerConceptProps> = (props) => {
               <SkafellPikeCard />
             </div>
           </div>
-          <div className="w-1/2 px-4">
+          <div className="w-full lg:w-1/2 px-4">
             <Leaderboard />
           </div>
         </div>
       </div>
-      <div className="right-area p-10 w-1/5 border-l">
+      <div className="right-area p-6 lg:p-10 w-1/5 border-l">
         <RecentWalks />
       </div>
     </div>
