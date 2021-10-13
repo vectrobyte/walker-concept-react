@@ -13,6 +13,6 @@ jobs:
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_REACT_MAPS_PWA }}'
-          projectId: isp-roadmap-react
+          projectId: vectrobyte-walker-concept
         env:
           FIREBASE_CLI_PREVIEWS: hostingchannels
