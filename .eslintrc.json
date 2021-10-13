@@ -21,6 +21,7 @@
     "@typescript-eslint/explicit-module-boundary-types": 0,
     "@typescript-eslint/interface-name-prefix": 0,
     "@typescript-eslint/no-explicit-any": 0,
+    "@typescript-eslint/no-unused-vars": "warn",
     "import/order": "off",
     "no-console": "warn",
     "prettier/prettier": ["error", { "singleQuote": true }],
@@ -31,7 +32,6 @@
     "semi": "warn",
     "simple-import-sort/imports": "error",
     "sort-imports": "off",
-    "no-unused-vars": "warn",
     "no-restricted-imports": [
       "error",
       {
