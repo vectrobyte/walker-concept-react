@@ -1,0 +1,93 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+.idea
+
+## ignore build directories
+/dist/
+/build/
+/bundle/
+/output/
+/.firebase/
+
+### JetBrains template
+/.idea/
+
+### VisualStudioCode template
+/.vscode/
+
+### NetBeans template
+/nbproject/
+/nbbuild/
+/nbdist/
+/.nb-gradle/
+
+### Node template
+node_modules/
+logs
+*.log
+.npm
+.eslintcache
+.node_repl_history
+*.tgz
+.yarn-integrity
+.next
+
+### Sass template
+/.sass-cache/
+*.css.map
+
+### Windows template
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+*.lnk
+
+### macOS template
+.DS_Store
+._*
+
+### Linux template
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+### lock files
+composer-lock.json
+package-lock.json
+
+### test files
+/tests/e2e/videos/
+/tests/e2e/screenshots/
+/playground
+
+### local env files
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+### editor files
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

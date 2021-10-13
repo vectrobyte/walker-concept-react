@@ -1,0 +1,68 @@
+{
+  "name": "vectrobyte-walker-concept",
+  "version": "0.1.0",
+  "private": true,
+  "author": {
+    "name": "Dilip Bhattarai",
+    "email": "vectrobyte@gmail.com",
+    "url": "https://www.linkedin.com/in/dilip-bhattarai-29b274184/"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "tailwindcss": "^2.2.7",
+    "worker-loader": "^3.0.8"
+  },
+  "scripts": {
+    "tailwind": "tailwind build src/styles/tailwind/config.css -o src/styles/tailwind/output.css",
+    "serve": "yarn tailwind && react-scripts start",
+    "start": "yarn serve",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint -c .eslintrc.js \"**/*.{ts,tsx}\" --max-warnings=0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all",
+      "not chrome < 51",
+      "not safari < 10"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.53",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-router-dom": "^5.1.8",
+    "@typescript-eslint/eslint-plugin": "^4.19.0",
+    "@typescript-eslint/parser": "^4.19.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-config-react": "^1.1.7",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.23.1",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "node-sass": "^6.0.1",
+    "postcss": "^8.3.6",
+    "postcss-loader": "^6.1.1",
+    "prettier": "^2.2.1",
+    "sass": "^1.37.5",
+    "typescript": "^4.2.4"
+  },
+  "peerDependencies": {
+    "history": "^4.10.1"
+  }
+}

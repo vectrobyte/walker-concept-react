@@ -1,0 +1,40 @@
+@import 'variables';
+@import 'utilities';
+@import 'typography';
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 16px;
+}
+
+.scrollable {
+  overflow-y: auto;
+  /* width */
+  &::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  &::-webkit-scrollbar-track-piece {
+    height: 30px;
+    width: 30px;
+  }
+
+  /* Track */
+  &::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.3);
+  }
+
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+
+  /* Handle on hover */
+  &::-webkit-scrollbar-thumb:hover {
+    background: $gray;
+  }
+}
