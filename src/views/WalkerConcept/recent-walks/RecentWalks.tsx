@@ -8,7 +8,7 @@ const RecentWalks: React.FC<RecentWalksProps> = (props) => {
   return (
     <div className="recent-walks">
       <div className="text-xl mb-10 lg:mb-14">
-        <div className="recentwalks__c2b9ae28005c46908b5a00ec5990d237">Recent Walks</div>
+        <div className="">Recent Walks</div>
       </div>
       <div className="mb-8 lg:mb-12 mb-3">
         <div className="text-5xl mb-3">1043</div>
