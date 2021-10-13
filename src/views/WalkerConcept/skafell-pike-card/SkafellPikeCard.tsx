@@ -4,7 +4,7 @@ import React from 'react';
 
 type SkafellPikeCardProps = React.HTMLAttributes<HTMLElement>;
 
-const SkafellPikeCard: React.FC<SkafellPikeCardProps> = (props) => {
+const SkafellPikeCard: React.FC<SkafellPikeCardProps> = () => {
   const data = {
     height: 1200,
     distance: 824,

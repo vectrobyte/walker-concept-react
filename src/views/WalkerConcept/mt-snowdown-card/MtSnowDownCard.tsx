@@ -4,7 +4,7 @@ import React from 'react';
 
 type MtSnowDownCardProps = React.HTMLAttributes<HTMLElement>;
 
-const MtSnowDownCard: React.FC<MtSnowDownCardProps> = (props) => {
+const MtSnowDownCard: React.FC<MtSnowDownCardProps> = () => {
   const data = {
     height: 1200,
     distance: 824,

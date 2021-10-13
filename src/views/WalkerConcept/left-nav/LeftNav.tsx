@@ -6,7 +6,7 @@ import WalkerIcon from '../../../assets/walker.svg';
 
 type LeftNavProps = React.HTMLAttributes<HTMLElement>;
 
-const LeftNav: React.FC<LeftNavProps> = (props) => {
+const LeftNav: React.FC<LeftNavProps> = () => {
   return (
     <div className="left-nav">
       <div className="flex mb-8 lg:mb-12">

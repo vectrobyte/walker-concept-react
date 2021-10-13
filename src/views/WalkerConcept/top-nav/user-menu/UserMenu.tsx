@@ -6,7 +6,7 @@ import UserIcon from '../../../../assets/user.svg';
 
 type UserMenuProps = React.HTMLAttributes<HTMLElement>;
 
-const UserMenu: React.FC<UserMenuProps> = (props) => {
+const UserMenu: React.FC<UserMenuProps> = () => {
   return (
     <div className="user-menu flex items-center justify-center px-8">
       <div className="mr-4">

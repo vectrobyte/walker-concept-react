@@ -4,7 +4,7 @@ import React from 'react';
 
 type RecentWalksProps = React.HTMLAttributes<HTMLElement>;
 
-const RecentWalks: React.FC<RecentWalksProps> = (props) => {
+const RecentWalks: React.FC<RecentWalksProps> = () => {
   return (
     <div className="recent-walks">
       <div className="text-xl mb-10 lg:mb-14">

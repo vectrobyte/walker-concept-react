@@ -11,7 +11,7 @@ import TopNav from './top-nav/TopNav';
 
 type WalkerConceptProps = React.HTMLAttributes<HTMLElement>;
 
-const WalkerConcept: React.FC<WalkerConceptProps> = (props) => {
+const WalkerConcept: React.FC<WalkerConceptProps> = () => {
   return (
     <div className="parent w-full h-min-full flex">
       <div className="left-area w-1/5 p-6 lg:p-10 border-r">

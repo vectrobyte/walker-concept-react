@@ -6,7 +6,7 @@ import VectorBG from './vector-bg.png';
 
 type LeaderboardProps = React.HTMLAttributes<HTMLElement>;
 
-const Leaderboard: React.FC<LeaderboardProps> = (props) => {
+const Leaderboard: React.FC<LeaderboardProps> = () => {
   return (
     <div className="leaderboard relative overflow-hidden p-8 h-full">
       <div className="text-lg text-2xl mb-12">Leaderboard</div>
