@@ -5,13 +5,17 @@ import React from 'react';
 type RecentWalksProps = React.HTMLAttributes<HTMLElement>;
 
 const RecentWalks: React.FC<RecentWalksProps> = () => {
+  const data = {
+    total_miles: 1043,
+  };
+
   return (
     <div className="recent-walks">
       <div className="text-xl mb-10 lg:mb-14">
         <div className="">Recent Walks</div>
       </div>
       <div className="mb-8 lg:mb-12 mb-3">
-        <div className="text-5xl mb-3">1043</div>
+        <div className="text-5xl mb-3">{data.total_miles}</div>
         <div className="text-gray-500 mx-3">Miles in total</div>
       </div>
 
