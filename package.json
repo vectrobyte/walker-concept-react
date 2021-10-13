@@ -23,7 +23,7 @@
     "build": "yarn tailwind && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "eslint -c .eslintrc.js \"**/*.{ts,tsx}\" --max-warnings=0"
+    "lint": "eslint -c .eslintrc.json \"**/*.{ts,tsx}\" --max-warnings=0"
   },
   "eslintConfig": {
     "extends": [
