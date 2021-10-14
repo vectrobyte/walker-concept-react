@@ -15,13 +15,13 @@ const LeftNav: React.FC<LeftNavProps> = () => {
       </div>
       <ol className="menu">
         <li className="mb-6">
-          <a href="" className="px-4">Targets</a>
+          <a href="" className="px-4 hover:text-gray-800 transition-colors delay-100">Targets</a>
         </li>
         <li className="mb-6">
-          <a href="" className="px-4 text-gray-500">History</a>
+          <a href="" className="px-4 text-gray-500 hover:text-gray-800 transition-colors delay-100">History</a>
         </li>
         <li className="mb-6">
-          <a href="" className="px-4 text-gray-500">Overview</a>
+          <a href="" className="px-4 text-gray-500 hover:text-gray-800 transition-colors delay-100">Overview</a>
         </li>
       </ol>
     </div>

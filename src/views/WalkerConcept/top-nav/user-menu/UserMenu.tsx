@@ -8,7 +8,7 @@ type UserMenuProps = React.HTMLAttributes<HTMLElement>;
 
 const UserMenu: React.FC<UserMenuProps> = () => {
   return (
-    <div className="user-menu flex items-center justify-center px-8">
+    <div role="button" className="user-menu flex items-center justify-center px-8 hover:text-gray-800 transition-colors delay-100">
       <div className="mr-4">
         <img src={UserIcon} alt="" className="" />
       </div>
