@@ -22,21 +22,21 @@ const RecentWalks: React.FC<RecentWalksProps> = () => {
       <ol>
         <li className="border rounded-2xl p-4 flex items-center justify-between mb-3 bg-white">
           <div className="flex items-center">
-            <div className="rounded pill mr-2">12:1</div>
+            <div className="rounded p-1 px-2 text-xs pill mr-2">12:1</div>
             <div className="text-sm">Miles</div>
           </div>
           <div className="">12/02/21</div>
         </li>
         <li className="border rounded-2xl p-4 flex items-center justify-between mb-3 bg-white">
           <div className="flex items-center">
-            <div className="rounded pill mr-2">12:1</div>
+            <div className="rounded p-1 px-2 text-xs pill mr-2">12:1</div>
             <div className="text-sm">Miles</div>
           </div>
           <div className="">12/02/21</div>
         </li>
         <li className="border rounded-2xl p-4 flex items-center justify-between mb-3 bg-white">
           <div className="flex items-center">
-            <div className="rounded pill mr-2">12:1</div>
+            <div className="rounded p-1 px-2 text-xs pill mr-2">12:1</div>
             <div className="text-sm">Miles</div>
           </div>
           <div className="">12/02/21</div>
