@@ -17,7 +17,7 @@ const WalkerConcept: React.FC<WalkerConceptProps> = () => {
       <div className="left-area w-1/5 p-6 lg:p-10 border-r">
         <LeftNav />
       </div>
-      <div className="content-area p-6 lg:p-10 w-3/5">
+      <div className="container mx-auto p-6 lg:p-10 w-3/5">
         <TopNav />
         <div className="flex flex-wrap lg:flex-nowrap -mx-4">
           <div className="w-full lg:w-1/2 px-4">
