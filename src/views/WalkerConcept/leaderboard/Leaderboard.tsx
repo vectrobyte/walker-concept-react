@@ -11,7 +11,7 @@ const Leaderboard: React.FC<LeaderboardProps> = () => {
     <div className="leaderboard relative overflow-hidden p-8 h-full">
       <div className="text-lg text-2xl mb-12">Leaderboard</div>
 
-      <ol>
+      <ol className="relative z-10">
         <li className="border rounded-2xl p-4 flex items-center justify-between mb-3 bg-white">
           <div className="text-sm">John Smith</div>
           <div className="">12/02/21</div>
